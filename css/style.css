@@ -1,10 +1,10 @@
 body {
-	color: #696b67;
-	font-family: Open Sans;
-	font-size: 13px;
-	font-style: normal;
-	font-weight: normal;
-	background: #f6f6f3;
+  color: #696b67;
+  font-family: Open Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal;
+  background: #f6f6f3;
 }
 .container {
   margin: 0 auto;
@@ -18,15 +18,15 @@ body {
    Wrapper
 -----------------------------------*/
 #wrapper{
-	background: transparent scroll repeat;
-	position: relative;
+  background: transparent scroll repeat;
+  position: relative;
 }
 
 .top-panel{
-	background: #4bae4f !important;
-	padding: 9px 0 32px !important;
-	margin-bottom: -21px !important;
-	position: relative;
+  background: #4bae4f !important;
+  padding: 9px 0 32px !important;
+  margin-bottom: -21px !important;
+  position: relative;
 }
 input.ty-search-block__input {
   display: block;
