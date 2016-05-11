@@ -15,11 +15,14 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
   <meta name="robots" content="index,follow" />
+  <link href="images/1.png" rel="shortcut icon" type="image/png">
 
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="css/reset.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
   
   <!-- Google Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
@@ -36,18 +39,18 @@
   <div id="wrapper">
     
     <!-- ▼HEADER▼ -->
-    <header id="header" class="container-fluid clearfix">
+    <header id="header" class="clearfix">
 
       <div class="top-panel clearfix">
-        <div class="container p0">
+        <div class="container">
           <div class="row-fluid">
 
-            <div class="col-sm-9"></div><!-- end /.col-sm-9 -->
+            <div class="col-sm-9 col-xs-12"></div><!-- end /.col-sm-9 -->
 
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-xs-12 p0">
               <div class="top-search">
                 <div class="top-search-block">
-                  <form action="" name="" method="">
+                  <form action="#" method="get">
                     <input type="text" name="" value="" id="" title="Tìm kiếm" class="ty-search-block__input cm-hint" placeholder="Tìm kiếm">
                     <button title="Tìm" class="ty-search-magnifier" type="submit"><i class="fa fa-search"></i></button>
                   </form>
@@ -62,22 +65,42 @@
       <div class="top-header clearfix">
         <div class="container header-grid">
           <div class="row-fluid">
-            <div class="col-sm-4 logo-grid">
-              <div class=" top-logo    ty-float-left">
-                <div class="ty-logo-container">
-                  <a href="#" title="">
-                    <img src="images/logo.png" width="335" height="81" alt="" class="img-responsive">
-                  </a>
-                </div>
+            <div class="col-sm-4 logo-grid p0">
+              <div class="text-center">
+                <a href="#" title="">
+                  <img src="images/logo.png" alt="" class="img-responsive">
+                </a>
               </div>
             </div>
             
             <nav class="col-sm-7">
-              <ul>
-                <li>Yêu Thích(0)</li>
-                <li>Tài Khoản <i class="fa fa-angle-right"></i></li>
-                <li>Shopping Cart</li>
-                <li>Checkout</li>
+              <ul class="nav nav-menu">
+                <li><a href="#">Yêu Thích (0)</a></li>
+                <li>
+                <a href="#" class="acount-info">Tài Khoản <i class="fa fa-angle-right"></i></a>
+                  <ul class="nav-child">
+                    <li class="hover-style"><a href="#">Đơn hàng</a></li>
+                    <li class="hover-style"><a href="#">So sánh</a></li>
+                    <li class="hover-style"><a href="#">Yêu Thích (0)</a></li>
+                    <li class="shopping-cart">
+                      <span>Kiểm tra đơn hàng</span>
+                      <form action="" name="" method="">
+                       <div class="form-custom">
+                        <input type="text" name="" value="" id="" class="ty-input-text" title="Kiểm tra đơn hàng" placeholder="Kiểm tra đơn hàng">
+                        <a href="http://www.vnpost.vn/" target="_blank">
+                          <button title="Go" class="ty-btn-go" type="button"><i class="fa fa-caret-right ty-btn-go__icon"></i></button>
+                        </a>
+                        </div>
+                      </form>
+                    </li>
+                    <li class="ty-account-info__buttons">
+                      <button type="button" class="btn btn-secondary wp100">Đăng nhập</button>
+                      <button type="button" class="btn btn-secondary wp100 mt10">Đăng ký</button>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="#">Shopping Cart</a></li>
+                <li><a href="#">Checkout</a></li>
               </ul>
             </nav>
           </div>
