@@ -16,6 +16,10 @@ body {
 .row-fluid {
    width: 100%;
 }
+a:focus{
+  outline: none;
+  text-decoration: none;
+}
 /* 
    Wrapper
 -----------------------------------*/
@@ -171,6 +175,7 @@ input[type="text"], input[type="password"] {
   text-decoration: none;
   background-color: transparent;
   color: #feea3a;
+  outline: none;
 }
 .nav-child {
   display: none;
@@ -249,9 +254,11 @@ input[type="text"], input[type="password"] {
   background: #4bae4f;
   color: #fff;
 }
+.btn-secondary:focus,
 .btn-secondary:hover{
   background: #6cc070;
   color: #fff;
+  outline: none;
 }
 .active{
   display: block;
