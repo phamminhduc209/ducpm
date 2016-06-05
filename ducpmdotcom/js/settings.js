@@ -50,7 +50,7 @@ $(document).ready(function () {
  #Progress Bar For Skills Page
  ========================================================================== */
 
-progressBar(80, $('#progressBar'));
+progressBar(50, $('#progressBar'));
 progressBar(10, $('#progressBar2'));
 // progressBar(60, $('#progressBar3'));
 
