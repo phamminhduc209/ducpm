@@ -61,11 +61,11 @@ a:hover {
 }
 ::selection {
     color: #000;
-    background: none repeat scroll 0 0 #ffb400;
+    background: none repeat scroll 0 0 #7aa93c;
 }
 ::-moz-selection {
     color:#000;
-    background: none repeat scroll 0 0 #ffb400;
+    background: none repeat scroll 0 0 #7aa93c;
 }
 * {
     outline: 0!important;
@@ -120,7 +120,7 @@ input[type="text"], textarea {
     -webkit-user-select: text;
 }
 input[type="submit"] {
-    border: 2px solid #ffb400;
+    border: 2px solid #7aa93c;
     background-color: transparent;
     color: #a6a6a6;
     font-weight: 400;
@@ -139,10 +139,10 @@ input[type="submit"] {
 input[type="text"]:focus, textarea:focus {
     outline: none;
     color: #545454;
-    border: 1px solid #ffb400;
+    border: 1px solid #7aa93c;
 }
 input[type="submit"]:hover {
-    background-color: #ffb400;
+    background-color: #7aa93c;
     color: #fff;
 }
 input[type="text"], input[type="email"], input[type="search"], input[type="password"], textarea, input[type="submit"], input[type="button"] {
@@ -201,7 +201,7 @@ h5 {
 .title-divider {
     width: 70px;
     height: 5px;
-    background-color: #ffb400;
+    background-color: #7aa93c;
     margin: 30px 0 50px 0
 }
 .full-divider {
@@ -218,7 +218,7 @@ h5 {
     background-color: #FFFFF
 }
 .button {
-    border: 2px solid #ffb400;
+    border: 2px solid #7aa93c;
     background-color: #FFF;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
@@ -235,8 +235,8 @@ h5 {
     -o-transition-duration: .2s;
 }
 .button:hover {
-    border: 2px solid #ffb400;
-    background-color: #ffb400;
+    border: 2px solid #7aa93c;
+    background-color: #7aa93c;
     color: #fff;
 }
 /* ==========================================================================
@@ -410,11 +410,11 @@ h5 {
     -o-transition-duration: .2s;
 }
 .menu nav a span.active {
-    color: #ffb400;
+    color: #7aa93c;
     font-weight: 400
 }
 .menu nav a:hover {
-    color: #ffb400;
+    color: #7aa93c;
     text-decoration: none;
 }
 .menu nav a span:nth-child(2) {
@@ -581,7 +581,7 @@ a.totop-link {
 }
 .introduction h2 {
     border: none;
-    color: #1587B9;;
+    color: #7aa93c;
     text-transform: uppercase;
     line-height: 50px;
     padding-bottom: 0;
@@ -589,18 +589,18 @@ a.totop-link {
     margin-bottom: 35px
 }
 .introduction .inner {
-    margin: 47% 0 0 0;
+    margin: 70% 0 0 0;
     position:absolute;
     z-index:2;
 }
 .introduction span.title {
     border-bottom: 1px solid #7a7a7a;
     border-top: 1px solid #7a7a7a;
-    color: #1587B9;
+    color: #7aa93c;
     padding: 15px 0;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 17px;
 }
 /* ==========================================================================
    #About Screen
@@ -608,7 +608,7 @@ a.totop-link {
 
 .about {
     background: url('../images/4.png')no-repeat 100% 0 scroll;
-    background-size: contain;
+    background-size: cover;
 }
 .about .inner {
     width: 50%
@@ -734,7 +734,7 @@ a.totop-link {
     font-weight: 400;
     letter-spacing: -1px;
     margin: 21px 0 0 0;
-    color: #ffb400;
+    color: #7aa93c;
 }
 .percent:after {
     content: '%';
@@ -763,7 +763,7 @@ a.totop-link {
 
 .experience-con .icon-block i {
     font-size: 60px;
-    color: #ffb400;
+    color: #7aa93c;
     margin: 8px 0 0
 }
 .experience-con h5 {
@@ -805,7 +805,7 @@ a.totop-link {
    ========================================================================== */
 .education-con .icon-block i {
     font-size: 60px;
-    color: #ffb400;
+    color: #7aa93c;
     margin: 8px 0 0
 }
 .education-con h5 {
@@ -850,7 +850,7 @@ a.totop-link {
 }
 .contact-details i {
     font-size: 45px;
-    color: #ffb400
+    color: #7aa93c
 }
 .contact-details strong {
     color: #000;
@@ -919,6 +919,7 @@ a.totop-link {
     -o-background-size: cover;
     background-size: cover;
     cursor: pointer;
+    background-position: bottom;
 }
 .introduction-end-con {
     float: right;
@@ -934,7 +935,7 @@ a.totop-link {
     border-top: 1px solid #333333;
     border-bottom: 1px solid #333333;
     padding: 10px 0;
-    color: #ffb400;
+    color: #7aa93c;
     font-weight: normal;
 }
 .introduction-end-con .rotate {
@@ -1100,7 +1101,7 @@ iframe, embed, object {
     font-weight: 600
 }
 .calendar a {
-    border-bottom: 2px solid #ffb400;
+    border-bottom: 2px solid #7aa93c;
     font-weight: 600
 }
 .tagcloud {
@@ -1299,4 +1300,12 @@ iframe, embed, object {
         height:auto;
         width:auto;
     }
+}
+
+
+.text-bold {
+    font-weight: bold;
+}
+.education-details .flot-left h4 {
+    font-size: 20px;
 }

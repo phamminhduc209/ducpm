@@ -3,7 +3,7 @@
  $name=$_POST["name"];
  $from=$_POST["email"];
  $msg=$_POST["message"];
- $receiver="vctung@outlook.com";
+ $receiver="minhducpham.it@gmail.com";
  $subject="Contact us form details";
 
 $message = "
@@ -13,9 +13,9 @@ $message = "
 </head>
 <body>
 <table width='50%' border='0' align='center' cellpadding='0' cellspacing='0'>
-  <tr>
-    <td colspan='2' align='center' valign='top'><img src='http://tungvc.com/images/logo.png' width='140' height='140'></td>
-  </tr>
+  // <tr>
+  //   <td colspan='2' align='center' valign='top'><img src='http://tungvc.com/images/logo.png' width='140' height='140'></td>
+  // </tr>
   <tr>
     <td width='50%' align='right'>&nbsp;</td>
     <td align='left'>&nbsp;</td>

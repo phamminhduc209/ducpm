@@ -17,13 +17,34 @@ $(document).ready(function () {
         /* ==========================================================================
          #Carousel Popup For Portfolio Page
          ========================================================================== */
-        $(".owl-carousel").owlCarousel({
-            navigation: true,
-            slideSpeed: 300,
-            paginationSpeed: 400,
-            singleItem: true,
-            autoPlay: false
+        // $(".owl-carousel").owlCarousel({
+        //     navigation: true,
+        //     slideSpeed: 300,
+        //     paginationSpeed: 400,
+        //     singleItem: true,
+        //     autoPlay: true
+        // });
+
+        // Slide Carousel
+        $(document).ready(function() {
+            $(".owl-carousel").each(function(index, el) {
+              var config = $(this).data();
+              config.navText = ['<i class="icofont icofont-thin-left"></i>','<i class="icofont icofont-thin-right"></i>'];
+              config.smartSpeed="800";
+             
+              if($(this).hasClass('owl-style2')){
+                config.animateOut="fadeOut";
+                config.animateIn="fadeIn";    
+              }
+
+              if($(this).hasClass('dotsData')){
+                config.dotsData="true";
+              }
+              
+              $(this).owlCarousel(config);
+            });
         });
+
 
         /* ==========================================================================
          #Text Rotator 
@@ -51,7 +72,7 @@ $(document).ready(function () {
  ========================================================================== */
 
 progressBar(50, $('#progressBar'));
-progressBar(10, $('#progressBar2'));
+// progressBar(10, $('#progressBar2'));
 // progressBar(60, $('#progressBar3'));
 
 /* ==========================================================================
