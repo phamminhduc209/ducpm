@@ -1,0 +1,27 @@
+{
+  "name": "ducpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phamminhduc209/ducpm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phamminhduc209/ducpm/issues"
+  },
+  "homepage": "https://github.com/phamminhduc209/ducpm#readme",
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "imagemin-cli": "^8.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^10.0.0",
+    "terser": "^5.44.1"
+  }
+}

@@ -563,8 +563,9 @@ a.totop-link {
 }
 .introduction img {
     z-index: -1;
-    height: auto;
+    height: 100%;
     width: 100%;
+    object-fit: cover;
     float: left;
 }
 .introduction .owl-carousel {
@@ -607,7 +608,7 @@ a.totop-link {
    ========================================================================== */
 
 .about {
-    background: url('../images/4.png')no-repeat 100% 0 scroll;
+    background: url('../images/4.png')no-repeat 60% 100% scroll;
     background-size: cover;
 }
 .about .inner {

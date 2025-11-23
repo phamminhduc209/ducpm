@@ -8,8 +8,10 @@
 <title>Duc PM - Frontend Developer</title>
 <link rel="shortcut icon" href="favicon.ico">
 
-<!-- Google Font-->
-<link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100,400italic,500,500italic,700,900,900italic,700italic%7COswald:400,300,700' rel='stylesheet' type='text/css'>
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100,400italic,500,500italic,700,900,900italic,700italic%7COswald:400,300,700' rel='stylesheet' type='text/css'>
 <!-- Design Style -->
 <link rel="stylesheet" type="text/css" href="css/scroll.css" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -21,11 +23,8 @@
 <!-- Responsive -->
 <link rel="stylesheet" type="text/css" href="css/responsive.css" />
 <!-- Pie Chart / Skills -->
-<script type="text/javascript" src="js/jquery-2.0.3.min.js"></scsript>
-<!-- Send Email -->
-<script type="text/javascript" src="js/sendemail.js"></script>
-<!-- Progressbar / Skills-->
-<script type="text/javascript" src="js/progressbar.js"></script>
+<!-- jquery was previously included here and again before the closing body; to avoid duplicate loading we keep a single jquery at the end of body -->
+<!-- sendemail.js and progressbar.js are moved to the end of the document so jQuery is available when they run -->
 <!-- Portfolio-->
 <script src="js/modernizr.custom.js"></script>
 </head>
@@ -71,9 +70,9 @@
           <span class="title">Frontend Developer</span>
         </div>
         <div class="owl-carousel dotsData" data-nav="false" data-margin="0" data-items='1' data-autoplayTimeout="700" data-autoplay="true" data-loop="true">
-          <div class="item"><img src="images/111.png" alt="" /></div>
-          <div class="item"><img src="images/2.png" alt="" /></div>
-          <div class="item"><img src="images/333.png" alt="" /></div>
+          <div class="item"><img loading="lazy" src="images/111.png" alt="" /></div>
+          <div class="item"><img loading="lazy" src="images/2.png" alt="" /></div>
+          <div class="item"><img loading="lazy" src="images/333.png" alt="" /></div>
         </div>
       </article>
       
@@ -294,7 +293,7 @@
                       <li>
                         <h3>MAX</h3>
                         <figure>
-                          <img src="images/Max-WP.jpg" alt=""/>
+                          <img loading="lazy" src="images/Max-WP.jpg" alt=""/>
                           <figcaption>
                             <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>MAX</h3>
@@ -306,7 +305,7 @@
                       <li>
                         <h3>icho.vn</h3>
                         <figure>
-                          <img src="images/iCho.jpg" alt=""/>
+                          <img loading="lazy" src="images/iCho.jpg" alt=""/>
                           <figcaption>
                             <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>icho.vn</h3>
@@ -318,7 +317,7 @@
                       <li>
                         <h3>play.vmob.org/</h3>
                          <figure>
-                          <img src="images/apkpure.jpg" alt=""/>
+                          <img loading="lazy" src="images/apkpure.jpg" alt=""/>
                           <figcaption>
                             <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>play.vmob.org/</h3>
@@ -330,7 +329,7 @@
                       <li>
                         <h3>Annam Mobile</h3>
                         <figure>
-                          <img src="images/annam.jpg" alt=""/>
+                          <img loading="lazy" src="images/annam.jpg" alt=""/>
                           <figcaption>
                             <div class="figcaption-details">
                               <img src="images/icon-plus.png" height="82" width="82" alt="" />
@@ -343,7 +342,7 @@
                       <li>
                         <h3>Vidio</h3>
                         <figure>
-                          <img src="images/Vidio.jpg" alt=""/>
+                          <img loading="lazy" src="images/Vidio.jpg" alt=""/>
                           <figcaption>
                             <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>Vidio</h3>
@@ -375,40 +374,40 @@
                           <figcaption>
                             <h3>HitsNL mobile app</h3>
                           </figcaption>
-                           <img src="images/Max-WP.jpg" alt=""/></figure>
-                        </figure>
+                  <img loading="lazy" src="images/Max-WP.jpg" alt=""/></figure>
+                </figure>
                       </li>
                       <li>
                         <figure>
                           <figcaption>
                             <h3>HitsNL mobile app</h3>
                           </figcaption>
-                           <img src="images/iCho.jpg" alt=""/></figure>
-                        </figure>
+                  <img loading="lazy" src="images/iCho.jpg" alt=""/></figure>
+                </figure>
                       </li>
                       <li>
                         <figure>
                           <figcaption>
                             <h3>HitsNL mobile app</h3>
                           </figcaption>
-                           <img src="images/apkpure.jpg" alt=""/></figure>
-                        </figure>
+                  <img loading="lazy" src="images/apkpure.jpg" alt=""/></figure>
+                </figure>
                       </li>
                       <li>
                         <figure>
                           <figcaption>
                             <h3>HitsNL mobile app</h3>
                           </figcaption>
-                           <img src="images/annam.jpg" alt=""/></figure>
-                        </figure>
+                  <img loading="lazy" src="images/annam.jpg" alt=""/></figure>
+                </figure>
                       </li>
                       <li>
                         <figure>
                           <figcaption>
                             <h3>HitsNL mobile app</h3>
                           </figcaption>
-                           <img src="images/Vidio.jpg" alt=""/></figure>
-                        </figure>
+                  <img loading="lazy" src="images/Vidio.jpg" alt=""/></figure>
+                </figure>
                       </li>
                     </ul>
                     <nav> <span class="fa nav-prev"></span> <span class="fa nav-next"></span> <span class="fa nav-close"></span> </nav>
@@ -427,7 +426,7 @@
           <h2>Contact</h2>
           <div class="title-divider"></div>
           <h3>Let's Keep In Touch</h3>
-          <p>My name is Pham Minh Duc. I have over 2 years experience as a developer web. <br> I am a multifaceted creative that operates equally in areas of both design and development. I strongly believe that you must put your audience or customer first and make a connection with them in order to succeed. I am a digital storyteller and love to bring experiences to the world and solve problems in the process.<br>Good isn't enough for me but must be efficient. Just because a little secret : "I want to conquer the world ^^ "</p>
+          <p>My name is Pham Minh Duc. I have over 5 years experience as a developer web. <br> I am a multifaceted creative that operates equally in areas of both design and development. I strongly believe that you must put your audience or customer first and make a connection with them in order to succeed. I am a digital storyteller and love to bring experiences to the world and solve problems in the process.<br>Good isn't enough for me but must be efficient. Just because a little secret : "I want to conquer the world ^^ "</p>
           <div class="full-divider"></div>
           <div class="contact-con margin-top50">
             <div class="container-sub">
@@ -443,8 +442,7 @@
                     </div>
                     <div class="contact-text">
                       <div class="col-2 icon-block phone"><i class="fa fa-phone"></i></div>
-                      <div class="flot-left"> <strong>Phone</strong><br>
-                       (+84)  167 502 8991 </div>
+                      <div class="flot-left"> <strong>Phone</strong><br>(+84) 37 502 8991 </div>
                     </div>
                     <div class="contact-text">
                       <div class="col-2 icon-block email"><i class="fa fa-envelope"></i></div>
@@ -516,6 +514,10 @@ head.js(
 <!-- Fit Video --> 
 <script type="text/javascript"  src="js/jquery.fitvids.js"></script>
 <!-- All Javascript Component--> 
+<!-- Load small utilities first so settings can call them (e.g. progressBar) -->
+<script type="text/javascript" src="js/progressbar.js"></script>
 <script src="js/settings.js"></script>
+<!-- Moved from head: ensure jQuery is loaded before these -->
+<script type="text/javascript" src="js/sendemail.js"></script>
 </body>
 </html>
